@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /*
- * main -  Entry function
+ * main -  Entry point
  *
- * return: Always (succesful)
+ * Return: Always 0 (Success)
  *
  */
 
 int main(void){
-	printf("David in Horberlton schhol");
+	printf("Holberton school");
 	return (0);
 }
