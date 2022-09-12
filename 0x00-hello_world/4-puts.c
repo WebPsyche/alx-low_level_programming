@@ -1,6 +1,6 @@
 #include <string.h>
 /**
- * getputstring - prints string to screen
+ * main - entry point description: prints string to screen
  *
  *@string: string to be inputed
  *
@@ -9,7 +9,8 @@
  * Return: return 0 if successsfull
  */
 
-int getputstring(char string)
+int main(void)
 {
-	puts(string);
+	  puts("\"Programming is like building a multiligual puzzle\n");
+	 return(0);
 }
