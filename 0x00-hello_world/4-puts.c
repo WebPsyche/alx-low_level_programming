@@ -1,17 +1,15 @@
-#include <stdio.h>
 #include <string.h>
 /**
  * getputstring - prints string to screen
  *
- *@void: no parameter
+ *@string: string to be inputed
  *
  *puts : print string to screen
  *
  * Return: return 0 if successsfull
  */
 
-int getputstring(void)
+int getputstring(char string)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
-	return (0);
+	puts(string);
 }
