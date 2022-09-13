@@ -6,9 +6,9 @@
  *Description: write a program that prints _putchar followed by a new line.
  *
  *
- * Return: Always 0 (success.)
+ * Return: Always O (success.)
  */
-int main(void) /*main takes in void*/
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -18,5 +18,6 @@ int main(void) /*main takes in void*/
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
