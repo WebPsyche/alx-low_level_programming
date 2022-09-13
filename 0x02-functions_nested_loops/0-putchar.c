@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-/*
+/**
  * main - entry point : takes in no parameter
  *
  *Description: write a program that prints _putchar followed by a new line.
