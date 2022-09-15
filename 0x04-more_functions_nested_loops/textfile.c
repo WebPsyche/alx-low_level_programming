@@ -1,19 +1,13 @@
 #include <stdio.h>
 int main (void)
 {
-	int i,x;
+	int i;
 
 	for (i = 0; i <= 10; i++)
 	{
-		x = 0;
-
-		while (x < 15)
-		{
-			if (x >= 10)
-				putchar('0' + x / 10);
-			putchar('0' + x % 10);
-			x++;
-		}
+		putchar(90);
+		putchar(91);
+		putchar(92);
 		putchar('\n');
 	}
 }
