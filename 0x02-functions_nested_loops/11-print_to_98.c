@@ -15,16 +15,14 @@ void print_to_98(int n)
 	{
 		for (x = n; x <= 98; x++)
 		{
-			printf("%d ", x);
-			putchar(',');
+			printf("%d, ", x);
 		}
 	} else if (n > 98)
 	{
 		for (x = n; x >= 98; x--)
 		{
-			printf("%d ", x);
-			putchar(',');
+			printf("%d,", x); 
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 }
