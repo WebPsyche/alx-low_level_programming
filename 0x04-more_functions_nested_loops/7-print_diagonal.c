@@ -3,6 +3,8 @@
  * print_diagonal - draws a diagonal line
  *
  * @n: number of lines to be printed
+ *
+ * Return: void
  */
 void print_diagonal(int n)
 {
