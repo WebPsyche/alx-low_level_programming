@@ -1,12 +1,20 @@
 #include <stdio.h>
 int main (void)
 {
-	int c;
-	
-	c = 2;
+	int i,x;
 
-	if (c >= 'A' && c <= 'Z')
-		putchar("%d", 1);
-	putchar(0);
+	for (i = 0; i <= 10; i++)
+	{
+		x = 0;
+
+		while (x < 15)
+		{
+			if (x >= 10)
+				putchar('0' + x / 10);
+			putchar('0' + x % 10);
+			x++;
+		}
+		putchar('\n');
+	}
 }
-		
+
