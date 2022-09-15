@@ -1,14 +1,24 @@
 #include <stdio.h>
 int main (void)
 {
-	int i;
+	 int i;
 
-	for (i = 0; i <= 10; i++)
-	{
-		putchar(90);
-		putchar(91);
-		putchar(92);
-		putchar('\n');
-	}
+        for (i = 0; i <= 10; i++)
+        {
+                putchar(90);
+                putchar(91);
+                putchar(92 int i;
+
+        for (i = 0; i <= 10; i++)
+        {
+                putchar(90);
+                putchar(91);
+                putchar(92);
+                putchar('\n');
+        }
+);
+                putchar('\n');
+        }
+
 }
 

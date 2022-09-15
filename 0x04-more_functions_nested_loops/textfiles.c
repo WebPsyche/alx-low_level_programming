@@ -6,13 +6,15 @@
  *
  * Return: void
  */
-void print_diagonal(int n)
+void main(void)
 {
-	int i, x;
+	int i, x, n;
+
+	n = 10;
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 	else
 	{
@@ -20,10 +22,10 @@ void print_diagonal(int n)
 		{
 			for (x = 0; x < i; x++)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
-			_putchar(92);
-			_putchar('\n');
+			putchar(92);
+			putchar('\n');
 		}
 	}
 }
