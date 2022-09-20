@@ -10,11 +10,11 @@
  */
 void print_rev(char *s)
 {
-	int w;
+	int w, i;
 
 	while (*s != '\0')
 	{
-		*s++;
+		s++;
 	}
 	w = *s;
 	for (i--; i >= 0; i--)
