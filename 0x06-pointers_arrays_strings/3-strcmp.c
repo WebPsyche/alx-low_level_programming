@@ -29,5 +29,7 @@ int _strcmp(char *s1, char *s2)
 			x = 0;
 			return (x);
 		}
+		s1++;
+		s2++;
 	}
 }
