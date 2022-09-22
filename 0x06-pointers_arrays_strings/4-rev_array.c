@@ -20,6 +20,11 @@ void reverse_array(int *a, int n)
 	for (x = i; x >= 0; x--)
 	{
 		_putchar(a[x]);
+		if (x != 0)
+		{
+			_putchar(";");
+			_putchar(" ");
+		}
 	}
 	_putchar('\n');
 }
