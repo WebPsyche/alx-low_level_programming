@@ -21,4 +21,5 @@ void reverse_array(int *a, int n)
 	{
 		_putchar(a[x]);
 	}
+	_putchar('\n');
 }
