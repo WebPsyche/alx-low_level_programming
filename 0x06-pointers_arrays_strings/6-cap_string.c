@@ -9,25 +9,15 @@
  */
 char *cap_string(char *s)
 {
-	int i;
-	int x;
-
+	int i, x;
 	char delims[] = "\t\n,;.!?\"(){}";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-
-		if (s[0] >= 'a' && s[0] <= 'z')
-		{
+		if (s[0] >= 97 && s[0] <= 122)
 			s[0] = s[0] - 32;
-			for (x = 0; delimeters[x] != '\0'; j++)
-			{
-				if (s[i] == delimeters[x] && s[i + 1] >= 'a' && s[i + 1] <= 'z')
-				{
-					s[i + 1] = s[i + 1] - 32;
-				}
-			}
-		}
+		for (x = 0; delims[x] != '\0'; x++)
+			if (s[i] == delims[x] && s[i + 1] >= 97 && s[i + 1] <= 122)
+				s[i + 1] = s[i + 1] - 32;
 	}
-	return (s);
-}
+	return (s)
