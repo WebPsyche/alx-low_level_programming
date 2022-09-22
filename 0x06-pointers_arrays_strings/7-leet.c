@@ -9,21 +9,21 @@
  */
 char *leet(char *s)
 {
+	char *q = s
 	char letter[] = {'A', 'E', 'I', 'O', 'U'};
 	int encnum[] = {4, 3, 0, 7, 1};
-	int i, x;
+	int i;
 
-	x = 0;
-	while (s[x] != '\0')
+	while (*s)
 	{
-		for (i = 0; i < letter[i]; i++)
+		for (i = 0; i < sizeof(letter) / sizeof(char); i++)
 		{
-		if (s == key[i] || s == key[i] + 32)
-		{
-			s = 48 + value[i];
+			if (*s == key[i] || *s == key[i] + 32)
+			{
+				*s = 48 + value[i];
+			}
 		}
-		}
-	x++;
+		s++;
 	}
-	return (s);
+	return (q);
 }
