@@ -22,7 +22,7 @@ void reverse_array(int *a, int n)
 		_putchar(a[x]);
 		if (x != 0)
 		{
-			_putchar(";");
+			_putchar(",");
 			_putchar(" ");
 		}
 	}
