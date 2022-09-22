@@ -12,7 +12,7 @@ char *leet(char *s)
 	char *q = s
 	char letter[] = {'A', 'E', 'O', 'T', 'L'};
 	int encnum[] = {4, 3, 0, 7, 1};
-	unsigned int i;
+	int i;
 
 	while (*s)
 	{
@@ -20,7 +20,7 @@ char *leet(char *s)
 		{
 			if (*s == key[i] || *s == key[i] + 32)
 			{
-				*s = 48 + value[i];
+				*s = 48 + encnum[i];
 			}
 		}
 		s++;
